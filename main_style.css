@@ -1,0 +1,109 @@
+
+body
+{
+    background-color: coral;
+    letter-spacing: 2px;
+    
+}
+div
+{
+    padding: 3px;
+}
+.title{
+    text-align: center;
+}
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: white;
+  }
+button {
+    background-color:rgb(25, 31, 114); /* Green */
+    height: 35px;
+    border: none;
+    color: white;
+    padding:5px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  a{
+    background-color:rgb(25, 31, 114); /* Green */
+    height: 25px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding:5px;
+    margin-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+ 
+.info
+{
+    background-color:rgba(255, 248, 220, 0.514);
+    width: 25%;
+    min-width: 350px;
+  border: 15px solid rgba(0, 128, 0, 0.596);
+  padding: 25px;
+  margin: 20px;
+  align-content: flex-end;
+  margin: 0% auto;
+}
+
+textarea {
+    width: 95%;
+    height: 150px;
+  }
+#submit:hover {
+    background-color: yellow;
+  }
+#box
+{
+    height:20px;
+    width: 95%;
+    padding: 3px;
+}
+.title{
+  margin-right: 10%;
+}
+#image_upload
+{
+    padding: 40px;
+    border: dotted;
+
+}
+.flex-container {
+    display: flex;
+    background-color: rgb(25, 31, 114);
+    padding-left: 1%;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  table, td{
+      border: 1px solid black;
+      text-align: center;
+      background-color: rgba(202, 176, 29,0.5);
+  }
+  input[type=button], input[type=submit], input[type=reset] ,input[type=file]{
+    background-color:blue;
+    width: 5px;
+    border: 1px solid black;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    margin: 4px;
+    cursor: pointer;
+  }
+  
